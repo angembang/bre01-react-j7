@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333333;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+    
+}
+
+article {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: lightcoral;
+    color: #333333;
+    
+}
+p {
+    padding: 1rem;
+}
+button {
+    background-color: #333333;
+    border-radius: 15px;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+ol {
+    padding: 1rem;
+}
+ol p {
+    padding: 1rem 0 1rem 0;
+}
